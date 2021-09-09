@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name": "Eat Safe Chicago",
+    "description": "Extension scrapes Google Maps page for a restaurant, provides food safety information regarding the establishment.",
+    "version": "0.0.7",
+    "icons": {"128": "images/flagicon128.png"},
+    "browser_action": {
+        "default_icon": "images/flagicon128.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "<all_urls>"]
+}

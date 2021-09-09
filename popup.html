@@ -1,0 +1,74 @@
+<!-- WE NEED A 128x128 icon to display in chrome! -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Trial</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div class="modal-header">
+        <div class="logo-stuff">
+            <img src="images/logopicrect.jpg" alt="demo image" class="logo-icon">
+            <h1 class="logo">
+                Eat Safe Chicago    
+                <span class="version">(0.0.7)</span>
+            </h1>
+            
+        </div>
+        <div class="infobox">   
+            <div id="message">
+                <!-- the good stuff goes here -->
+            </div>
+            <div id="trust">
+                <!-- the better stuff goes here -->
+            </div>
+            <span id="lastFiveGreen">
+                <!-- the better stuff goes here -->
+            </span>
+            <span id="lastFiveYellow">
+                <!-- the better stuff goes here -->
+            </span>
+            <span id="lastFiveRed">
+                <!-- the better stuff goes here -->
+            </span> 
+            <div>
+                <button id="date">
+                    <!-- the date goes here -->
+                </button>
+            </div>
+        </div> 
+
+    </div>
+    <div class="infobox">
+        <button type="button" class="collapsible">See Latest Violations</button>
+            <div class="content">
+                <!-- the best stuff goes here -->
+                <p id="violated"></p>
+            </div>
+    </div>
+    <div class="modal-icons">
+
+
+        <div class="flex-container">
+            <div class="flex">
+                <button><a href="https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5" target="_blank">Chicago Data Portal</a></button>
+                
+            </div>
+            <!-- <div class="flex">
+                <button><a href="">See the Github</a></button>
+            </div> -->
+        </div>
+
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
