@@ -4,7 +4,8 @@
 My code camp capstone project is a Chrome extension. It provides address-specific food safety data 
 to users of Google Maps upon viewing a given restaurant. I have actually been using this app to check
 restaurants that me and my wife go out to, and I hope I will be able to share that with everybody!
-![main screen image](images/fullpage0.0.7.jpg)
+
+[mainscreen image](images/fullpage0.0.7.jpg)
 
 ## File Organization
 Credit to Rob W at <http://stackoverflow.com/users/938089/rob-w> for the idea of using two javascript pages 
