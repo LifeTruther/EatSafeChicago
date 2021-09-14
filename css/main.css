@@ -59,21 +59,30 @@ a:link, a:visited {
     font-size: 14px;
 }
 
-
 #lastFiveGreen{
     background-color: #c4ffb3;
     margin-top: 10px;
     padding: 5px 20px;
+    
+}
+#lastFiveGreen:empty {
+    display:none;
 }
 #lastFiveYellow{
     background-color: #ffff33;
     margin-top: 10px;
     padding: 5px 20px;
 }
+#lastFiveYellow:empty {
+    display:none;
+}
 #lastFiveRed{
     background-color: #ff4d4d;
     margin-top: 10px;
     padding: 5px 20px;
+}
+#lastFiveRed:empty {
+    display:none;
 }
 
 .logo-icon{

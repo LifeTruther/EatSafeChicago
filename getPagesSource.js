@@ -13,7 +13,7 @@ function doEverything(document_root) {
                 var patt = new RegExp(/[\w\d\s-]+(?=, Chicago)/);
                 addressRaw += patt.exec(node.outerHTML).toString().toUpperCase().slice(1);
                 console.log(addressRaw)
-            }else{html += "No Restaurant Here"};
+            };
             break;
         }
         node = node.nextSibling;

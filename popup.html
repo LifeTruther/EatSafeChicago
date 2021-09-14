@@ -8,9 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1st Trial</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+
+    <script>
+        $(document).ready(function() {
+            $("#getFiveGreen").find('div.section').filter(function() {
+                return !this.firstChild; 
+                }).hide();
+        })
+    </script>
 
 </head>
 <body>
@@ -30,15 +39,15 @@
             <div id="trust">
                 <!-- the better stuff goes here -->
             </div>
-            <span id="lastFiveGreen">
+            <div id="lastFiveGreen">
                 <!-- the better stuff goes here -->
-            </span>
-            <span id="lastFiveYellow">
+            </div>
+            <div id="lastFiveYellow">
                 <!-- the better stuff goes here -->
-            </span>
-            <span id="lastFiveRed">
+            </div>
+            <div id="lastFiveRed">
                 <!-- the better stuff goes here -->
-            </span> 
+            </div> 
             <div>
                 <button id="date">
                     <!-- the date goes here -->
