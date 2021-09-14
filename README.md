@@ -9,7 +9,7 @@ restaurants that me and my wife go out to, and I hope I will be able to share th
 
 ## File Organization
 Credit to Rob W at <http://stackoverflow.com/users/938089/rob-w> for the idea of using two javascript pages 
-to look at data on the current web page, and change the nature of the popup based on that data. So while
+to look at data on the current web page and change the nature of the popup based on that data. So while
 the main js file is the popup js, the heavy lifting of looking at the current tab and querying the data
 portal is done in the getPageSource js. I got a pretty nice result with this organization, so I didn't mess
 around with it too much. In the future however, I may experiment in an attempt to optimize result time.
