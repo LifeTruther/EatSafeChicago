@@ -28,5 +28,5 @@ various divs on the webpage. I insert the database aka_name of the restaurant at
 Just underneath is a color system that tells me how safe the restaurant is. Green restaurants have passed 
 all three of their latest food inspections, and are labelled 'CLEAN'. Red restaurants have failed 
 their latest food inspection, and are labelled 'SUSPICIOUS'. All other results fall under the yellow 
-'NOT VERIFIED' label. I also send the date of the latest inpsection, and provide an expandible text box
+'NOT VERIFIED' label. I also send the date of the latest inspection, and provide an expandible text box
 showing the violations recorded in the latest inspection.
